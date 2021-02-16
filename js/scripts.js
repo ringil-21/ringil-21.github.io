@@ -27,7 +27,19 @@ function switchDisplayMode(mode){
 }
 
 function checkInitDisplayMode(){
-console.log("CHECK")
-	var mode = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"   
+
+	/*Check for darkmode status of browser*/
+	var mode = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light"
+	
+	/* If there is no darkmode support, switch to darkmode between 22:00 and 05:00*/
+	if(mode == "light"){
+		var date = new Date();
+		if(date.getHours() < 6 || date.getHours > 21)
+			mode = "dark"
+			
+	}
+	
+	
+	
  	switchDisplayMode(mode)
 }
