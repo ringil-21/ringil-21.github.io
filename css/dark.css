@@ -1,0 +1,21 @@
+
+/*
+-- Colors --
+-- dark mode --
+ text: #ffffff
+ background: #1e272e
+*/
+
+body.dark{
+    color: #ffffff;
+    background: #485460;
+}
+
+body.dark h1{
+    color:#d2dae2;
+    
+}
+
+body.dark #display-mode-button::before{
+    content: "Dark Mode"
+}

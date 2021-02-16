@@ -1,0 +1,24 @@
+/*
+-- Colors --
+-- light mode --
+text: #333
+primary: #45aaf2
+highlight: #ef5777
+background: #d1d8e0
+
+*/
+
+body.light{
+    color: #333;
+    background: #fff;
+    
+}
+
+body.light h1{
+    color:#0fbcf9;
+    
+}
+
+body.light #display-mode-button::before{
+    content: "Light Mode"
+}

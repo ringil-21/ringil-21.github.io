@@ -1,20 +1,35 @@
 /*
 -- Colors --
+ 
+-- light mode --
 text: #333
 primary: #45aaf2
-highlight: #a55eea
+highlight: #ef5777
 background: #d1d8e0
+ 
+-- dark mode --
+ text: #ffffff
+ background: #1e272e
 */
 
-body{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: #f5f6fa;
-    color: #333;
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
-h1{
-    color:#45aaf2;
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
+
 .center{
     max-width: 1280px;
     margin: 0 auto;

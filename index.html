@@ -8,12 +8,15 @@
         <meta name="author" content="ringil-21" />
         
         <link rel="stylesheet" href="css/style.css?v=1.0" />
-        
+        <link rel="stylesheet" href="css/light.css?v=1.0" />
+        <link rel="stylesheet" href="css/dark.css?v=1.0" />
+
     </head>
     
-    <body>
-        <nav id="header" class="center"></nav>
-        <!--  <script src="js/scripts.js"></script>-->
+    <body id="body" onload="checkInitDisplayMode()" class="light">
+        <nav id="header" class="center">
+            <button id="display-mode-button" onclick="switchDisplayMode()"></button>
+        </nav>
         <div id="main" class="center">
             <h1>Hello World</h1>
         </div>
@@ -21,4 +24,6 @@
             <a href="/impressum">Impressum</a>
         </nav>
     </body>
+    
+    <script src="js/scripts.js"></script>
 </html>
