@@ -11,11 +11,24 @@ body.dark{
     background: #485460;
 }
 
+body.dark .show-in-light-mode{
+    display:none;
+}
+
 body.dark h1{
     color:#d2dae2;
     
 }
 
+body.dark #display-mode-button{
+    background-image: url("../assets/light_mode-24px.svg");
+
+}
+
 body.dark #display-mode-button::before{
-    content: "Dark Mode"
+    content: "Switch to Light Mode";
+}
+
+body.dark a, body.dark a:active{
+    color: #ffffff;
 }

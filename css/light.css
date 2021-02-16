@@ -18,7 +18,18 @@ body.light h1{
     color:#0fbcf9;
     
 }
+body.light .show-in-dark-mode{
+    display:none;
+}
+
+body.light #display-mode-button{
+    background-image: url("../assets/dark_mode-24px.svg");
+}
 
 body.light #display-mode-button::before{
-    content: "Light Mode"
+    content: "Switch to Dark Mode";
+}
+
+body.light a, body.light a:active{
+    color: #333;
 }

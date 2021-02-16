@@ -10,18 +10,33 @@
         <link rel="stylesheet" href="css/style.css?v=1.0" />
         <link rel="stylesheet" href="css/light.css?v=1.0" />
         <link rel="stylesheet" href="css/dark.css?v=1.0" />
-
+        
     </head>
     
     <body id="body" onload="checkInitDisplayMode()" class="light">
         <nav id="header" class="center">
+            <ul>
+                <li>
+                    <li><a href="#point1">Point 1</a></li>
+                    <li><a href="#point2">Point 2</a></li>
+                </li>
+            </ul>
+            <div>
+            <img class="show-in-dark-mode" src="assets/dark_mode-24px-fill.svg" />
+            <img class="show-in-light-mode" src="assets/light_mode-24px-fill.svg" />
             <button id="display-mode-button" onclick="switchDisplayMode()"></button>
+            </div>
+
+
         </nav>
         <div id="main" class="center">
             <h1>Hello World</h1>
         </div>
         <nav id="footer" class="center">
-            <a href="/impressum">Impressum</a>
+            <ul class="text-center">
+                <li><a href="impressum">Impressum</a></li>
+                <li><a href="datenschutz">Datenschutz</a></li>
+            </ul>
         </nav>
     </body>
     

@@ -1,33 +1,31 @@
 /*
--- Colors --
+ -- Colors --
  
--- light mode --
-text: #333
-primary: #45aaf2
-highlight: #ef5777
-background: #d1d8e0
+ -- light mode --
+ text: #333
+ primary: #45aaf2
+ highlight: #ef5777
+ background: #d1d8e0
  
--- dark mode --
+ -- dark mode --
  text: #ffffff
  background: #1e272e
-*/
+ */
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-  src: local('Material Icons'),
-    local('MaterialIcons-Regular'),
-    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
-}
+/*@font-face {*/
+/*  font-family: 'Material Icons';*/
+/*  font-style: normal;*/
+/*  font-weight: 400;*/
+/*  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */*/
+/*  src: local('Material Icons'),*/
+/*    local('MaterialIcons-Regular'),*/
+/*    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),*/
+/*    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),*/
+/*    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');*/
+/*}*/
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
-    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 .center{
@@ -35,11 +33,32 @@ body{
     margin: 0 auto;
 }
 
+#footer ul, #header ul{
+    list-style: none;
+}
+
+#footer li, #header li{
+    list-style: none;
+    display:inline;
+}
+
+#footer li{
+    padding: 4px 16px;
+}
+
+#display-mode-button{
+    padding: 8px 32px 8px 16px;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
 a, a:active{
-    color: #333;
     text-decoration:none;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+.text-center{
+    text-align:center
 }
