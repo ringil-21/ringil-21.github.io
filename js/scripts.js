@@ -39,7 +39,5 @@ function checkInitDisplayMode(){
 			
 	}
 	
-	
-	
  	switchDisplayMode(mode)
 }

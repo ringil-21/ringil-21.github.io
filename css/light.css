@@ -1,12 +1,11 @@
 /*
--- Colors --
--- light mode --
-text: #333
-primary: #45aaf2
-highlight: #ef5777
-background: #d1d8e0
-
-*/
+ -- Colors --
+ text: #333
+ primary: #45aaf2
+ highlight: #ef5777
+ background: #d1d8e0
+ 
+ */
 
 body.light{
     color: #333;
@@ -25,10 +24,11 @@ body.light .show-in-dark-mode{
 body.light #display-mode-button{
     background-image: url("../assets/dark_mode-24px.svg");
 }
-
+/*
 body.light #display-mode-button::before{
-    content: "Switch to Dark Mode";
+ content: "Switch to Dark Mode";
 }
+*/
 
 body.light a, body.light a:active{
     color: #333;

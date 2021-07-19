@@ -1,31 +1,9 @@
-/*
- -- Colors --
- 
- -- light mode --
- text: #333
- primary: #45aaf2
- highlight: #ef5777
- background: #d1d8e0
- 
- -- dark mode --
- text: #ffffff
- background: #1e272e
- */
-
-/*@font-face {*/
-/*  font-family: 'Material Icons';*/
-/*  font-style: normal;*/
-/*  font-weight: 400;*/
-/*  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */*/
-/*  src: local('Material Icons'),*/
-/*    local('MaterialIcons-Regular'),*/
-/*    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),*/
-/*    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),*/
-/*    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');*/
-/*}*/
-
 body{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.flex{
+    display: flex;
 }
 
 .center{
@@ -35,11 +13,13 @@ body{
 
 #footer ul, #header ul{
     list-style: none;
+    padding: 0;
 }
 
 #footer li, #header li{
     list-style: none;
     display:inline;
+    padding: 0 16px;
 }
 
 #footer li{
