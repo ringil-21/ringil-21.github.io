@@ -13,6 +13,9 @@ Alarm: #F2542D */
     font-size: 2rem;
 }
 
+h1{
+    color: #0E9594
+}
 #cooming_soon_container > div{
     max-width: 720px;
     position: absolute;
@@ -33,7 +36,9 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
-
+.text-center{
+    text-align: center;
+}
 #footer ul, #header ul{
     list-style: none;
     padding: 0;

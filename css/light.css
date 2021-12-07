@@ -12,11 +12,6 @@ body.light{
     background: #fff;
     
 }
-
-body.light h1{
-    color:#0fbcf9;
-    
-}
 body.light .show-in-dark-mode{
     display:none;
 }
